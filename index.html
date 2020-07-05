@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id='headerDiv'>
+      <h1 id='header'>To-doo-doo List</h1>
+    </div>
+    <div id='forms'>
+    <div id = 'projModal' class = 'modal'>
+      <div class = 'projModalContent'>
+        <form id='newProj'>
+          <input type='text' name='projName' id='projName' placeholder='New Project'><br>
+          <button class='sub' form='newProj' type='submit' onsubmit="return false">Add</button>
+        </form>
+      </div>
+    </div>
+    <div id = 'todoModal' class = 'modal'>
+      <div class = 'todoModalContent'>
+        <form id='newTodo'>
+          <input type='text' name='todoName' id='todoName' placeholder='New to-do'><br>
+          <input type='text' name='todoDesc' id='todoDesc' placeholder='Description'><br>
+          <input type='text' name='todoDueDate' id='todoDueDate' placeholder='Due Date'><br>
+          <select name='project' id='projectDropDown'>
+
+          </select>
+          <button class='sub' form='newTodo' type='submit' onsubmit='return false'>Add</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <div id="container">
+      
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
