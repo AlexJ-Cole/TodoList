@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/AlexJ-Cole/TodoList#readme",
   "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-plugin-react": "^7.20.3",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   }

@@ -2,9 +2,9 @@ import { createTodo, createProject } from './dataService.js'
 import { loadDom } from './dom.js'
 
 function createPlaceHolders() {
-  const misc = createProject('Miscellaneous', []);
-  const p = createTodo('Click to-do names (ME) to collapse', 'When all to-do items are removed from a project, the project will be deleted. Try it out!', '05/31/2000', 'Miscellaneous');
-  const o = createTodo('TIP', 'Be sure to select the project you want to add your to-do item to from the dropdown menu when creating it!', '06/15/2019', 'Miscellaneous');
+  createProject('Miscellaneous', []);
+  createTodo('Click to-do names (ME) to collapse', 'When all to-do items are removed from a project, the project will be deleted. Try it out!', '05/31/2000', 'Miscellaneous');
+  createTodo('TIP', 'Be sure to select the project you want to add your to-do item to from the dropdown menu when creating it!', '06/15/2019', 'Miscellaneous');
 }
 
 //placeholder misc project if localStorage empty

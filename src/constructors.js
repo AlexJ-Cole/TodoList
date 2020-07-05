@@ -1,4 +1,4 @@
-export function Todo(title, desc, due, project, complete) {
+export function Todo(title, desc, due, project) {
   this.title = title;
   this.description = desc;
   this.dueDate = due;

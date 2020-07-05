@@ -81,7 +81,7 @@ function deleteTodoListener() {
   let rmvRaw = document.getElementsByClassName('rmv');
   const rmv = Array.prototype.slice.call(rmvRaw);
   rmv.forEach(btn => {
-    btn.addEventListener('click', e => {
+    btn.addEventListener('click', () => {
       //removes todo item from todoList subarray in myProjects array
       //updats dom after every removal
       deleteTodo(btn);
